@@ -95,9 +95,6 @@ namespace eutelescope {
 			double _maxChi2Cut;
 
 			std::vector<float> _chi2NdfVec;
-			//Pointer to access millepede object..
-			EUTelMillepede* _Mille;
-
 
 			/** Input TrackerHit collection name */
 			std::string _trackCandidatesInputCollectionName;

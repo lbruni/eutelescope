@@ -97,13 +97,15 @@
   <!--reference hit collection name -->
   <parameter name="ReferenceCollection" type="string" value="refhit"/>
   <!--Maximal values of the hit residuals in the X direction for a correlation band. Note: these numbers are ordered according to the z position of the sensors and NOT according to the sensor id.-->
-  <parameter name="ResidualsXMax" type="FloatVec"> 2. 2. 2. 2. 2. 2. </parameter>
+  <parameter name="ResidualsXMax" type="FloatVec"> @ResidualXMax@ </parameter>
+
+  <!-- <parameter name="ResidualsXMax" type="FloatVec"> 2. 2. 2. 2. 2. 2. </parameter>-->
   <!--Minimal values of the hit residuals in the X direction for a correlation band. Note: these numbers are ordered according to the z position of the sensors and NOT according to the sensor id.-->
-  <parameter name="ResidualsXMin" type="FloatVec"> -2. -2. -2. -2. -2. -2. </parameter>
+  <parameter name="ResidualsXMin" type="FloatVec"> @ResidualXMin@  </parameter>
   <!--Maximal values of the hit residuals in the Y direction for a correlation band. Note: these numbers are ordered according to the z position of the sensors and NOT according to the sensor id.-->
-  <parameter name="ResidualsYMax" type="FloatVec"> 2. 2. 2. 2. 2. 2. </parameter>
+  <parameter name="ResidualsYMax" type="FloatVec"> @ResidualYMax@  </parameter>
   <!--Minimal values of the hit residuals in the Y direction for a correlation band. Note: these numbers are ordered according to the z position of the sensors and NOT according to the sensor id.-->
-  <parameter name="ResidualsYMin" type="FloatVec"> -2. -2. -2. -2. -2. -2. </parameter>
+  <parameter name="ResidualsYMin" type="FloatVec"> @ResidualXMin@  </parameter>
   <!--Do you want the reference hit collection to be used for coordinate transformations?-->
   <!--parameter name="UseReferenceCollection" type="bool" value="true"/-->
   <parameter name="ReferenceCollection" type="string" > refhit </parameter>

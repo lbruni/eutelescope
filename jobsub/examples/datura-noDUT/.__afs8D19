@@ -1,0 +1,81 @@
+---=== Analysis started on Tuesday, 05. May 2015 02:20PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/external/eudaq/v1.2.2/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "DUTHisto00"] gear::TrackerPlanes NOT found 
+[ MESSAGE5 "DUTHisto00"] D.U.T. plane  ID = 0  at Z [mm] = 0
+[ MESSAGE5 "DUTHisto00"] Booking histograms 
+[ MESSAGE5 "DUTHisto00"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE5 "DUTHisto01"] D.U.T. plane  ID = 1  at Z [mm] = 25.5
+[ MESSAGE5 "DUTHisto01"] Booking histograms 
+[ MESSAGE5 "DUTHisto01"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE5 "DUTHisto02"] D.U.T. plane  ID = 2  at Z [mm] = 52
+[ MESSAGE5 "DUTHisto02"] Booking histograms 
+[ MESSAGE5 "DUTHisto02"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE5 "DUTHisto03"] D.U.T. plane  ID = 3  at Z [mm] = 278
+[ MESSAGE5 "DUTHisto03"] Booking histograms 
+[ MESSAGE5 "DUTHisto03"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE5 "DUTHisto04"] D.U.T. plane  ID = 4  at Z [mm] = 303
+[ MESSAGE5 "DUTHisto04"] Booking histograms 
+[ MESSAGE5 "DUTHisto04"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE5 "DUTHisto05"] D.U.T. plane  ID = 5  at Z [mm] = 328.5
+[ MESSAGE5 "DUTHisto05"] Booking histograms 
+[ MESSAGE5 "DUTHisto05"] Histogram information searched in /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/datura-noDUT/steering-templates/histoinfo.xml
+[ MESSAGE6 "ApplyPreAlignment"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyPreAlignment"] EUTelescope : 
+[ MESSAGE4 "ApplyPreAlignment"] Only one Alignment Collection has been specified
+[ MESSAGE4 "ApplyPreAlignment"] 
+[ MESSAGE4 "ApplyPreAlignment"] Ignore other Suffix collections, proceed with the defaults given by _referenceHitCollectionName and _inputHitCollectionName 
+[ MESSAGE4 "ApplyPreAlignment"] 
+[ MESSAGE4 "ApplyPreAlignment"]  _alignmentCollectionNames[0] = prealign
+[ MESSAGE4 "ApplyPreAlignment"] 
+[ MESSAGE4 "ApplyPreAlignment"]  _hitCollectionNames[0] = alignedPre
+[ MESSAGE4 "ApplyPreAlignment"] 
+[ MESSAGE4 "ApplyPreAlignment"]  _refhitCollectionNames[0] = refhit
+ ***********************************************
+[ MESSAGE4 "ApplyPreAlignment"] 
+ A runtime error occured - (uncaught exception):
+[ MESSAGE6 "ApplyAlignment"] Processing run header 1, run number 2526
+      lcio::IOException: [SIOReader::open()] Can't open stream: ./output/database/run002526-alignment.slcio
+[ MESSAGE4 "ApplyAlignment"] EUTelescope : 
+ Marlin will have to be terminated, sorry.
+[ MESSAGE4 "ApplyAlignment"] Only one Alignment Collection has been specified
+ ***********************************************
+[ MESSAGE4 "ApplyAlignment"] 
+
+[ MESSAGE4 "ApplyAlignment"] Ignore other Suffix collections, proceed with the defaults given by _referenceHitCollectionName and _inputHitCollectionName 
+[ MESSAGE4 "ApplyAlignment"] 
+[ MESSAGE4 "ApplyAlignment"]  _alignmentCollectionNames[0] = alignment
+[ MESSAGE4 "ApplyAlignment"] 
+[ MESSAGE4 "ApplyAlignment"]  _hitCollectionNames[0] = alignedHit
+[ MESSAGE4 "ApplyAlignment"] 
+[ MESSAGE4 "ApplyAlignment"]  _refhitCollectionNames[0] = refhit
+[ MESSAGE4 "ApplyAlignment"] 
+[ MESSAGE4 "Fitter00"] Processing run header 1, run nr 2526
+[ MESSAGE4 "Fitter01"] Processing run header 1, run nr 2526
+[ MESSAGE4 "Fitter02"] Processing run header 1, run nr 2526
+[ MESSAGE4 "Fitter03"] Processing run header 1, run nr 2526
+[ MESSAGE4 "Fitter04"] Processing run header 1, run nr 2526
+[ MESSAGE4 "Fitter05"] Processing run header 1, run nr 2526
+[ MESSAGE6 "ApplyAlignmentFitHits00"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits00"] EUTelescope : 
+[ MESSAGE6 "ApplyAlignmentFitHits01"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits01"] EUTelescope : 
+[ MESSAGE6 "ApplyAlignmentFitHits02"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits02"] EUTelescope : 
+[ MESSAGE6 "ApplyAlignmentFitHits03"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits03"] EUTelescope : 
+[ MESSAGE6 "ApplyAlignmentFitHits04"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits04"] EUTelescope : 
+[ MESSAGE6 "ApplyAlignmentFitHits05"] Processing run header 1, run number 2526
+[ MESSAGE4 "ApplyAlignmentFitHits05"] EUTelescope : 

@@ -1,0 +1,144 @@
+---=== Analysis started on Tuesday, 05. May 2015 02:01PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/external/eudaq/v1.2.2/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "ClusteringMimosa"] gear::TrackerPlanes NOT found 
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0         0
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0      25.5
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0        52
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0       278
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0       303
+[ MESSAGE9 "ClusteringMimosa"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "ClusteringMimosa"]         -1  0   0
+[ MESSAGE9 "ClusteringMimosa"]          0  -1   0
+[ MESSAGE9 "ClusteringMimosa"]          0  0   1
+[ MESSAGE9 "ClusteringMimosa"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "ClusteringMimosa"]          0         0     328.5
+[ WARNING4 "ClusteringMimosa"]  -----------   
+[ WARNING4 "ClusteringMimosa"]  the following processor will modify the LCIO event :  ClusteringMimosa !! 
+[ WARNING4 "ClusteringMimosa"]  ------------  
+[ VERBOSE "NoisyClusterMasker"] Read in 432 hot pixels on plane 0
+[ VERBOSE "NoisyClusterMasker"] Read in 578 hot pixels on plane 1
+[ VERBOSE "NoisyClusterMasker"] Read in 365 hot pixels on plane 2
+[ VERBOSE "NoisyClusterMasker"] Read in 319 hot pixels on plane 3
+[ VERBOSE "NoisyClusterMasker"] Read in 681 hot pixels on plane 4
+[ VERBOSE "NoisyClusterMasker"] Read in 770 hot pixels on plane 5
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       0 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       1 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       2 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       3 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       4 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       5 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       6 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       7 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       8 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       9 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      10 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      20 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      30 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      40 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      50 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      60 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      70 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      80 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      90 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event     100 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event    2500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event    5000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event    7500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   10000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   12500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   15000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   17500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   20000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   22500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   25000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   27500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   30000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   32500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   35000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   37500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   40000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   42500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   45000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   47500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   50000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   52500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   55000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   57500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   60000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   62500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   65000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   67500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   70000 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   72500 in run 002526
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event   75000 in run 002526
+[ WARNING "Marlin"] lcio::EndOfDataException: SIOReader::readStream(int maxRecord) : EOF before 100000 records read from file
+[ MESSAGE4 "EUTelUtilityPrintEventNumber"] Finished. Processed 76997 events in 1 runs in total.
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run002526-clustering.slcio
+[ MESSAGE4 "NoisyClusterRemover"] Noisy cluster remover successfully finished
+[ MESSAGE4 "NoisyClusterRemover"] Printing summary:
+[ MESSAGE4 "NoisyClusterRemover"] Removed 167151 noisy pulses from plane 0.
+[ MESSAGE4 "NoisyClusterRemover"] Removed 225499 noisy pulses from plane 1.
+[ MESSAGE4 "NoisyClusterRemover"] Removed 213766 noisy pulses from plane 2.
+[ MESSAGE4 "NoisyClusterRemover"] Removed 139584 noisy pulses from plane 3.
+[ MESSAGE4 "NoisyClusterRemover"] Removed 255289 noisy pulses from plane 4.
+[ MESSAGE4 "NoisyClusterRemover"] Removed 470027 noisy pulses from plane 5.
+[ MESSAGE4 "NoisyClusterMasker"] Noisy cluster masker successfully finished
+[ MESSAGE4 "NoisyClusterMasker"] Printing summary:
+[ MESSAGE4 "NoisyClusterMasker"] Masked 167151 noisy clusters on plane 0.
+[ MESSAGE4 "NoisyClusterMasker"] Masked 225499 noisy clusters on plane 1.
+[ MESSAGE4 "NoisyClusterMasker"] Masked 213766 noisy clusters on plane 2.
+[ MESSAGE4 "NoisyClusterMasker"] Masked 139584 noisy clusters on plane 3.
+[ MESSAGE4 "NoisyClusterMasker"] Masked 255289 noisy clusters on plane 4.
+[ MESSAGE4 "NoisyClusterMasker"] Masked 470027 noisy clusters on plane 5.
+[ MESSAGE4 "ClusteringMimosa"] Successfully finished
+[ MESSAGE4 "ClusteringMimosa"] Found 871727 clusters on detector 0
+[ MESSAGE4 "ClusteringMimosa"] Found 929163 clusters on detector 1
+[ MESSAGE4 "ClusteringMimosa"] Found 925658 clusters on detector 2
+[ MESSAGE4 "ClusteringMimosa"] Found 822553 clusters on detector 3
+[ MESSAGE4 "ClusteringMimosa"] Found 970444 clusters on detector 4
+[ MESSAGE4 "ClusteringMimosa"] Found 1209523 clusters on detector 5
+[ MESSAGE3 "Marlin"] Deleting Mimosa26.so

@@ -1,8 +1,8 @@
 #!/bin/sh
 
-first="97"
-last="97"
-RUNLIST="runlist-150.csv"
+first="2528"
+last="2529"
+RUNLIST="runlist.csv"
 
 #first="33"
 #last="33"
@@ -16,16 +16,16 @@ modus="straight"
 
 for i in `seq $first $last`; do
 
- jobsub.py $DRY -c config.cfg -csv $RUNLIST converter  $i
- jobsub.py  $DRY -c config.cfg -csv $RUNLIST clustering $i
- jobsub.py  $DRY -c config.cfg -csv $RUNLIST filter $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST converter  $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST clustering $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST filter $i
 
 if [[ $modus == "straight" ]]; then
- jobsub.py $DRY -c config.cfg -csv $RUNLIST hitmaker   $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST hitmaker   $i
 # alignment using straight line assumption
- jobsub.py $DRY -c config.cfg -csv $RUNLIST align      $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST align      $i
 # fitter using broken line implementation by F.Zarnezki
- jobsub.py $DRY -c config.cfg -csv $RUNLIST trackTestFitter $i
+ jobsub.py -g $DRY -c config.cfg -csv $RUNLIST trackTestFitter $i
 
 elif [[ $modus == "daf" ]]; then
  jobsub.py $DRY -c config.cfg -csv $RUNLIST hitmaker   $i

@@ -9,8 +9,6 @@
 #include <vector>
 #include <cstdio>
 #include <algorithm>
-#include <fstream>
-#include <iostream>
 
 // LCIO
 #include <EVENT/LCCollection.h>
@@ -67,8 +65,6 @@ namespace eutelescope {
 	
 			  virtual void end();
 				void printPointsInformation(std::vector<gbl::GblPoint>& pointList);
-				double printSize(const std::string& address);
-
 		protected: 
 
 				std::string _milleBinaryFilename;

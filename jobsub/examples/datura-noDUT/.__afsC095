@@ -1,0 +1,176 @@
+---=== Analysis started on Tuesday, 05. May 2015 02:17PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/external/eudaq/v1.2.2/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "HitMakerM26"] gear::TrackerPlanes NOT found 
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0         0
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0      25.5
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0        52
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       278
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       303
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]         -1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  -1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0     328.5
+[ MESSAGE5 "HitMakerM26"] Writing to ./output/database/run002526-referencehit.slcio
+[ WARNING3 "Correlator"] EUTelGeometryTelescopeGeoDescription: Geometry already initialized, using old initialization
+[ WARNING0 "HitMakerM26"] The geometry ID in the run header is set to zero.
+[ WARNING0 "HitMakerM26"] This may mean that the GeoID parameter was not set
+[ WARNING0 "Correlator"] The geometry ID in the run header is set to zero.
+[ WARNING0 "Correlator"] This may mean that the GeoID parameter was not set
+[ WARNING5 "PreAligner"] Hotpixel database hotpixel not found
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       0 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       1 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       2 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       3 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       4 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       5 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       6 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       7 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       8 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       9 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      10 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      20 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      30 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      40 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      50 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      60 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      70 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      80 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      90 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event     100 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    2500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    5000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    7500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   10000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   12500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   15000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   17500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   20000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   22500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   25000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   27500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   30000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   32500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   35000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   37500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   40000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   42500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   45000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   47500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   50000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   52500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   55000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   57500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   60000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   62500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   65000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   67500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   70000 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   72500 in run 002526
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event   75000 in run 002526
+[ WARNING "Marlin"] lcio::EndOfDataException: SIOReader::readStream(int maxRecord) : EOF before 100000 records read from file
+[ MESSAGE4 "MyEUTelUtilityPrintEventNumber"] Finished. Processed 76998 events in 1 runs in total.
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run002526-hitmaker.slcio
+[ MESSAGE5 "Correlator"] The input CollectionVec contains HitCollection, calculating offset values 
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 1 to plane : 0 X offset : 0.1 Y offset : -0.5
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 2 to plane : 0 X offset : 0.1 Y offset : -0.3
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 3 to plane : 0 X offset : 0.215329 Y offset : -0.32487
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 4 to plane : 0 X offset : 0.384557 Y offset : 0.111739
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 5 to plane : 0 X offset : 0.100677 Y offset : 0.000620048
+[ MESSAGE4 "Correlator"] Successfully finished
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        1
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]     -0.0348816      0.259548             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        2
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]     -0.0348473      0.149178             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        3
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]       -1.00102     -0.752743             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        4
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]        -1.2403     0.0479813             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        5
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]       -1.57166       1.12424             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] Writing to ./output/database/run002526-prealignment.slcio
+[ MESSAGE4 "HitMakerM26"] Successfully finished
+[ MESSAGE3 "Marlin"] Deleting Mimosa26.so
