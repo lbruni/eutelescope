@@ -1,0 +1,101 @@
+---=== Analysis started on Wednesday, 08. July 2015 05:51PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/eudaq/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "TrackFit"] gear::TrackerPlanes NOT found 
+[ MESSAGE6 "TrackFit"] No Geometry field found in GEAR file, assuming CAST for all planes
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]          1  0   0
+[ MESSAGE9 "TrackFit"]          0  1   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]          0         0         0
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]          1  0.000540904   0
+[ MESSAGE9 "TrackFit"] -0.000540904  1   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "TrackFit"] -0.0833214  0.205118   141.383
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]          1  -0.000724059   0
+[ MESSAGE9 "TrackFit"] 0.000724059  1   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]  -0.154972 0.0817612   290.956
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 8 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"] -0.0182788  0.999833   0
+[ MESSAGE9 "TrackFit"]  -0.999833  -0.0182788   -0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 8 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]    37.3347  -27.0947   359.559
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]   0.999986  0.00525973   0
+[ MESSAGE9 "TrackFit"] -0.00525973  0.999986   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]   -4.09311   0.42293   446.613
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]   0.999985  0.00540167   0
+[ MESSAGE9 "TrackFit"] -0.00540167  0.999985   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]   -2.68614 0.0419299   603.028
+[ MESSAGE9 "TrackFit"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackFit"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackFit"]          1  0   0
+[ MESSAGE9 "TrackFit"]          0  1   0
+[ MESSAGE9 "TrackFit"]          0  0   1
+[ MESSAGE9 "TrackFit"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "TrackFit"]   -1.25305 0.0718956       759
+[ WARNING1 "TrackFit"] More than one character supplied as M-estimator option
+[ WARNING1 "TrackFit"] No M-estimator downweighting will be used
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       0 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       1 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       2 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       3 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       4 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       5 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       6 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       7 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       8 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       9 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      10 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      20 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      30 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      40 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      50 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      60 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      70 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      80 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      90 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event     100 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    1000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    2000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    3000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    4000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    5000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    6000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    7000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    8000 in run 000703
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    9000 in run 000703
+[ WARNING "Marlin"] lcio::EndOfDataException: SIOReader::readStream(int maxRecord) : EOF before 10000 records read from file
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run000703-GBLtracks.slcio
+[ MESSAGE9 "TrackFit"] The number of GBL tracks 7006 Number of original candidates 7013
+[ MESSAGE9 "TrackFit"] This is the average chi2 -1242.56

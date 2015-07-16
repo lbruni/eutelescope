@@ -1,0 +1,94 @@
+---=== Analysis started on Wednesday, 08. July 2015 04:41PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/eudaq/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ MESSAGE5 "UniversalNativeReader"] Initializing EUDAQ native reader Marlin library v1.4.5+53~gd96de5e
+[ WARNING "NoisyPixelMaskerM26"] gear::TrackerPlanes NOT found 
+[ MESSAGE6 "NoisyPixelMaskerM26"] No Geometry field found in GEAR file, assuming CAST for all planes
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0         0
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       150
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       300
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 8 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"] 6.12303e-17  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]         -1  6.12303e-17   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 8 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       350
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       450
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       600
+[ MESSAGE9 "NoisyPixelMaskerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          1  0   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  1   0
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0  0   1
+[ MESSAGE9 "NoisyPixelMaskerM26"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "NoisyPixelMaskerM26"]          0         0       750
+[ VERBOSE "UNKOWN"] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ VERBOSE "UNKOWN"] ~~~~~sanity check passed~~~~~
+[ VERBOSE "UNKOWN"] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       0 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       1 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       2 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       3 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       4 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       5 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       6 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       7 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       8 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       9 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      10 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      20 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      30 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      40 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      50 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      60 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      70 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      80 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      90 in run 000689
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event     100 in run 000689
+[ VERBOSE "NoisyPixelMaskerM26"] HotPixelDB file: run header and event created ok
+[ VERBOSE "NoisyPixelMaskerM26"] hotPixelCollection: hotpixel_m26 created
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run000689-converter.slcio
+[ MESSAGE5 "UniversalNativeReader"] Successfully finished

@@ -1,0 +1,103 @@
+---=== Analysis started on Wednesday, 15. July 2015 06:52PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/eudaq/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "TrackSearch"] gear::TrackerPlanes NOT found 
+[ MESSAGE6 "TrackSearch"] No Geometry field found in GEAR file, assuming CAST for all planes
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]          0         0         0
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]  -0.130577   0.20068       150
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]  -0.240993  0.108627       300
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 8 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"] 6.12303e-17  1   0
+[ MESSAGE9 "TrackSearch"]         -1  6.12303e-17   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 8 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]    39.4221       -40       350
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]   -4.19755  0.421562       450
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]   -2.83575-0.0201569       600
+[ MESSAGE9 "TrackSearch"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "TrackSearch"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "TrackSearch"]          1  0   0
+[ MESSAGE9 "TrackSearch"]          0  1   0
+[ MESSAGE9 "TrackSearch"]          0  0   1
+[ MESSAGE9 "TrackSearch"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "TrackSearch"]   -1.34508-0.00178146       750
+[ MESSAGE5 "TrackSearch"] These are the planes you will create a state from. Mass inbetween states will be turned to scatterers in GBLTrackProcessor.
+[ MESSAGE5 "TrackSearch"] 0  1  2  8  3  4  5  
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       0 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       1 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       2 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       3 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       4 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       5 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       6 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       7 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       8 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event       9 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      10 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      20 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      30 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      40 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      50 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      60 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      70 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      80 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event      90 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event     100 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    1000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    2000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    3000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    4000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    5000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    6000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    7000 in run 000850
+[ MESSAGE5 "TrackSearch"] Percentage tracks without DUT hit: 0.3538
+[ MESSAGE5 "TrackSearch"] Number of tracks per event: 0.687474
+[ MESSAGE5 "TrackSearch"] Number of left arm triplets per event: 2.16321
+[ MESSAGE5 "TrackSearch"] Number of right arm triplets per event: 2.14492
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    8000 in run 000850
+[ MESSAGE5 "MyEUTelUtilityPrintEventNumber"] Processing event    9000 in run 000850
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run000850-trackcand.slcio
+[ MESSAGE9 "TrackSearch"] EUTelProcessorPatRecTriplets::end()  TrackSearch processed 9999 events in 1 runs  av.tracks : 0.686869 total number of tracks: 6868

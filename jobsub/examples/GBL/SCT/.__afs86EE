@@ -1,0 +1,166 @@
+---=== Analysis started on Wednesday, 08. July 2015 04:41PM ===---
+
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/lib/libEutelescope.so.1.0.0 (libEutelescope.so)-->
+<!-- Loading shared library : /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/eudaq/lib/libNativeReader.so (libNativeReader.so)-->
+
+[ VERBOSE "AIDA"] ---------------------------------- R A I D A ----------------------------------
+[ VERBOSE "AIDA"] ROOT Implementation of the Abstract Interfaces for Data Analysis (AIDA v3.2.1)
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA Version: not supported by cvs2svn
+[ VERBOSE "AIDA"] 
+[ VERBOSE "AIDA"] RAIDA only creates simple ROOT histograms
+[ VERBOSE "AIDA"] Used ROOT Release: 5.34/18
+[ VERBOSE "AIDA"] -------------------------------------------------------------------------------
+[ VERBOSE "AIDA"] 
+[ WARNING "HitMakerM26"] gear::TrackerPlanes NOT found 
+[ MESSAGE6 "HitMakerM26"] No Geometry field found in GEAR file, assuming CAST for all planes
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 0 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 0 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0         0
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 1 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 1 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       150
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 2 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 2 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       300
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 8 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"] 6.12303e-17  1   0
+[ MESSAGE9 "HitMakerM26"]         -1  6.12303e-17   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 8 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       350
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 3 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 3 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       450
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 4 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 4 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       600
+[ MESSAGE9 "HitMakerM26"] THESE MATRICES ARE USED TO TAKE A POINT IN THE LOCAL FRAME AND MOVE IT TO THE GLOBAL FRAME.
+[ MESSAGE9 "HitMakerM26"] SensorID: 5 Rotation/Reflection matrix for this object.
+[ MESSAGE9 "HitMakerM26"]          1  0   0
+[ MESSAGE9 "HitMakerM26"]          0  1   0
+[ MESSAGE9 "HitMakerM26"]          0  0   1
+[ MESSAGE9 "HitMakerM26"] SensorID: 5 Translation vector for this object.
+[ MESSAGE9 "HitMakerM26"]          0         0       750
+[ WARNING3 "HitMakerStrip"] EUTelGeometryTelescopeGeoDescription: Geometry already initialized, using old initialization
+[ WARNING3 "HitLocalToGlobal"] EUTelGeometryTelescopeGeoDescription: Geometry already initialized, using old initialization
+[ WARNING3 "Correlator"] EUTelGeometryTelescopeGeoDescription: Geometry already initialized, using old initialization
+[ WARNING0 "HitMakerM26"] The geometry ID in the run header is set to zero.
+[ WARNING0 "HitMakerM26"] This may mean that the GeoID parameter was not set
+[ WARNING0 "HitMakerStrip"] The geometry ID in the run header is set to zero.
+[ WARNING0 "HitMakerStrip"] This may mean that the GeoID parameter was not set
+[ WARNING0 "HitLocalToGlobal"] The geometry ID in the run header is set to zero.
+[ WARNING0 "HitLocalToGlobal"] This may mean that the GeoID parameter was not set
+[ WARNING0 "Correlator"] The geometry ID in the run header is set to zero.
+[ WARNING0 "Correlator"] This may mean that the GeoID parameter was not set
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       0 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       1 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       2 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       3 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       4 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       5 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       6 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       7 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       8 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event       9 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      10 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      20 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      30 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      40 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      50 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      60 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      70 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      80 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event      90 in run 000688
+[ MESSAGE5 "EUTelUtilityPrintEventNumber"] Processing event     100 in run 000688
+[ WARNING2 "HitLocalToGlobal"] local_hit collection not available
+[ WARNING2 "PreAligner"] No input collection hit found on event 4939 in run 688
+[ WARNING2 "HitLocalToGlobal"] local_hit collection not available
+[ WARNING2 "PreAligner"] No input collection hit found on event 6508 in run 688
+[ WARNING "Save"] Adding a EORE because was missing
+[ MESSAGE5 "Save"] Writing the output file ./output/lcio/run000688-hitmaker.slcio
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        1
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]       0.112175     -0.219017             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        2
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]       0.204159    -0.0534897             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        8
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]              0       26.5027             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        3
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]        4.03195     -0.384762             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        4
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]        2.74382    0.00166702             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] Sensor ID                                                                                        5
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"]    X off [mm]    Y off [mm]    Z off [mm]      ZY angle      ZX angle      XY angle 
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"]              0             0             0             0             0             0
+[ MESSAGE5 "PreAligner"] --------------------------------------------------------------------------------------------------
+[ MESSAGE5 "PreAligner"] 
+[ MESSAGE5 "PreAligner"] Writing updated GEAR file with filename: /afs/cern.ch/user/l/lbruni/Eutelescope/v01-17-05/Eutelescope/trunk/jobsub/examples/GBL/SCT/geometry/gear-beforeAlign-000703_pre.xml
+[ MESSAGE5 "Correlator"] The input CollectionVec contains HitCollection, calculating offset values 
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 1 to plane : 0 X offset : -0.1 Y offset : 0.3
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 2 to plane : 0 X offset : -0.195041 Y offset : 0.1
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 8 to plane : 0 X offset : 0 Y offset : 0
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 3 to plane : 0 X offset : -3.9 Y offset : 0.795687
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 4 to plane : 0 X offset : -2.59901 Y offset : 0.195812
+[ MESSAGE5 "Correlator"] Hit Offset values:  plane : 5 to plane : 0 X offset : -1.29596 Y offset : 0.104262
