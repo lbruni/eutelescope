@@ -57,6 +57,7 @@ to the external frame of reference using the GEAR geometry description-->
   <parameter name="HitCollectionName" type="string" lcioOutType="TrackerHit"> local_hit </parameter>
   <!--Hit coordinates are calculated in local reference frame of sensor-->
   <parameter name="EnableLocalCoordidates" type="bool" value="true"/>
+
   <!--This is the name of the reference hit collection initialized in this processor. This collection provides the reference vector to correctly determine a plane corresponding to a global hit coordiante.-->
   <!--parameter name="ReferenceCollection" type="string" value="referenceHit"/-->
   <!--This is the file where the reference hit collection is stored-->
@@ -75,6 +76,8 @@ to the external frame of reference using the GEAR geometry description-->
   <parameter name="HitCollectionName" type="string" lcioOutType="TrackerHit"> local_hit </parameter>
   <!--Hit coordinates are calculated in local reference frame of sensor-->
   <parameter name="EnableLocalCoordidates" type="bool" value="true"/>
+  <parameter name="localDistDUT" type="FloatVec" value="@localDistDUT@" />
+
   <!--This is the name of the reference hit collection initialized in this processor. This collection provides the reference vector to correctly determine a plane corresponding to a global hit coordiante.-->
   <!--parameter name="ReferenceCollection" type="string" value="referenceHit"/-->
   <!--This is the file where the reference hit collection is stored-->
