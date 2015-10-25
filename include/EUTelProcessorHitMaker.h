@@ -338,7 +338,7 @@ namespace eutelescope {
 
     //! Coordinates reference frame switch
     bool _wantLocalCoordinates;
-
+    FloatVec _localDistDUT;
 
     //! Reference Hit file 
     std::string _referenceHitLCIOFile;
