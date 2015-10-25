@@ -87,12 +87,14 @@ _conversionIdMap(),
 _alreadyBookedSensorID(),
 _aidaHistoMap(),
 _histogramSwitch(true),
-_orderedSensorIDVec()
+_orderedSensorIDVec(),
+_localDistDUT(0,0)
 {
   // modify processor description
   _description =  "EUTelProcessorHitMaker is responsible to translate cluster centers from the local frame of reference \nto the external frame of reference using the GEAR geometry description";
 
   registerInputCollection(LCIO::TRACKERPULSE,"PulseCollectionName", "Input cluster collection name", _pulseCollectionName, std::string(""));
+  registerOptionalParameter("localDistDUT", "Shift the DUT hits", _localDistDUT, FloatVec());
 
   registerOutputCollection(LCIO::TRACKERHIT,"HitCollectionName", "Output hit collection name", _hitCollectionName, std::string(""));
 
@@ -414,10 +416,15 @@ void EUTelProcessorHitMaker::processEvent (LCEvent * event) {
 					//We have calculated the cluster hit position in terms of distance along the X and Y axis.
 					//However we still fo not have the sensor centre as the origin of the coordinate system.
 					//To do this we need to deduct xSize/2 and ySize/2 for the respective cluster X/Y position 
+                    if(_localDistDUT.empty()){
+                        _localDistDUT.push_back(0);
+                        _localDistDUT.push_back(1);
+
+                    }
 
 
-					telPos[0] = xDet - xSize/2. ;
-					telPos[1] = yDet - ySize/2. ; 
+					telPos[0] = xDet - xSize/2. +_localDistDUT.at(0);
+					telPos[1] = yDet - ySize/2. +_localDistDUT.at(1); 
 					telPos[2] =   0.;
 
 					delete cluster;
@@ -444,13 +451,13 @@ void EUTelProcessorHitMaker::processEvent (LCEvent * event) {
 			}
 #endif
 
-
 			if ( !_wantLocalCoordinates ) {
 					// 
 					// NOW !!
 					// GLOBAL coordinate system !!!
 
-					const double localPos[3] = { telPos[0], telPos[1], telPos[2] };
+                    const double localPos[3] = { telPos[0], telPos[1], telPos[2] };
+
 					geo::gGeometry().local2Master( sensorID, localPos, telPos);
 
 			}
@@ -462,7 +469,7 @@ void EUTelProcessorHitMaker::processEvent (LCEvent * event) {
 					AIDA::IHistogram2D * histo2D = dynamic_cast<AIDA::IHistogram2D*> (_aidaHistoMap[ tempHistoName ] );
 					if ( histo2D )
 					{
-                            const double localPos[3] = { telPos[0], telPos[1], telPos[2] };
+                            const double localPos[3] = { telPos[0] , telPos[1], telPos[2] };
                             double gloPos[3];
                             geo::gGeometry().local2Master( sensorID, localPos, gloPos);
 							histo2D->fill( gloPos[0], gloPos[1] );
