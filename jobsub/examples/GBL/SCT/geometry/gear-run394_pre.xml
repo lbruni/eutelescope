@@ -1,0 +1,43 @@
+<gear>
+    <global detectorName="EUTelescope" />
+    <!--Gear XML file automatically created with GearXML::createXMLFile ....-->
+    <BField type="ConstantBField" x="0.000000000e+00" y="0.000000000e+00" z="0.000000000e+00" />
+    <detectors>
+        <detector name="SiPlanes" geartype="SiPlanesParameters">
+            <siplanesID ID="0" />
+            <siplanesType type="TelescopeWithoutDUT" />
+            <siplanesNumber number="7" />
+            <layers>
+                <layer>
+                    <ladder ID="0" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="0.000000000e+00" rotationXY="0.000000000e+00" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="0" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="1" positionX="-3.308890721e-01" positionY="-2.860537893e-01" positionZ="1.327655550e+02" rotationXY="-3.977102447e-01" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="1" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="1.500000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="2" positionX="-5.062108569e-01" positionY="-6.655339461e-01" positionZ="2.653613400e+02" rotationXY="1.956203856e-01" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="2" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="3.000000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="8" positionX="-4.209312439e+00" positionY="-2.079497759e+01" positionZ="3.671792500e+02" rotationXY="8.997746391e+01" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="1.000000000e+02" sizeY="1.000000000e+02" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="8" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="3.500000000e+02" sizeX="1.000000000e+02" sizeY="1.000000000e+02" thickness="3.000000000e-01" npixelX="1800" npixelY="1" pitchX="7.450000000e-02" pitchY="2.500000000e+00" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="3" positionX="-9.214662038e-01" positionY="-7.864766323e-01" positionZ="4.701061690e+02" rotationXY="-4.811945350e-02" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="3" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="4.500000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="4" positionX="-1.373612706e+00" positionY="-1.241203941e+00" positionZ="6.148836770e+02" rotationXY="2.653308630e-01" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="4" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="6.000000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+                <layer>
+                    <ladder ID="5" positionX="-1.896343231e+00" positionY="-1.362659454e+00" positionZ="7.590000000e+02" rotationXY="0.000000000e+00" rotationZX="0.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
+                    <sensitive ID="5" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="7.500000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
+                </layer>
+            </layers>
+        </detector>
+    </detectors>
+    <materials />
+</gear>
